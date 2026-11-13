@@ -1,0 +1,11 @@
+{
+  "bsvalias": "1.0",
+  "capabilities": {
+    "pki": "https://api.peoplepay.tech/api/v1/bsvalias/id/{alias}@{domain.tld}",
+    "paymentDestination": "https://api.peoplepay.tech/api/v1/bsvalias/address/{alias}@{domain.tld}",
+    "2a40af698840": "https://api.peoplepay.tech/api/v1/bsvalias/p2p-payment-destination/{alias}@{domain.tld}",
+    "5f1323cddf31": "https://api.peoplepay.tech/api/v1/bsvalias/receive-transaction/{alias}@{domain.tld}",
+    "6745385c3fc0": false,
+    "receiveTransaction": "https://api.peoplepay.tech/api/v1/bsvalias/receive/{alias}@{domain.tld}"
+  }
+}
